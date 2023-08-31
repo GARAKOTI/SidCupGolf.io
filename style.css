@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Poppins&family=Roboto+Mono:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.cursor {
+  height: 20px;
+  width: 20px;
+  position: fixed;
+  background-color: #95c11e;
+  border-radius: 50%;
+  z-index: 99;
+}
+.blurcursor {
+  height: 400px;
+  width: 400px;
+  position: fixed;
+  background-color: #96c11e52;
+  border-radius: 50%;
+  z-index: 9;
+  filter: blur(40px);
+}
+#nav {
+  height: 130px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 120px;
+  gap: 50px;
+  position: fixed;
+  justify-content: flex-start;
+  z-index: 999;
+}
+#nav img {
+  height: 4.5vw;
+}
+h4 {
+  text-transform: uppercase;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 1.15vw;
+}
+video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+  position: fixed;
+}
+
+#main {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.39);
+}
+
+#page1 {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  z-index: 10;
+}
+#page1 h1 {
+  font-size: 90px;
+  font-weight: 900;
+  position: relative;
+}
+#page1 h1::before {
+  content: "EAT. DRINK. PLAY.";
+  position: absolute;
+  color: black;
+  top: -2px;
+  left: -2px;
+  -webkit-text-stroke: 2px #95c11e;
+  z-index: -1;
+}
+#page1 h2 {
+  font-size: 30px;
+  font-weight: 800px;
+  margin-bottom: 10px;
+  z-index: 10;
+}
+#page1 p {
+  width: 50%;
+  font-size: 18px;
+}
+.page2 {
+  height: 100vh;
+  width: 100%;
+}
