@@ -8,6 +8,20 @@ document.addEventListener("mousemove", (data) => {
   blur_cursor.style.top = data.y - 200 + "px";
 });
 
+var h4All = document.querySelectorAll("#nav h4");
+h4All.forEach(function (elem) {
+  elem.addEventListener("mouseenter", () => {
+    lightner.style.scale = 3;
+    lightner.style.border = "1px solid #ffff";
+    lightner.style.backgroundColor = "transparent";
+  });
+  elem.addEventListener("mouseleave", () => {
+    lightner.style.scale = 1;
+    lightner.style.border = "1px solid #95c11e";
+    lightner.style.backgroundColor = "#95c11e";
+  });
+});
+
 gsap.to("#nav", {
   // It will only work if there is page 2 present
 
@@ -28,7 +42,7 @@ gsap.to("#main", {
   scrollTrigger: {
     trigger: "#main",
     scroller: "body",
-    markers: true,
+    // markers: true,
     start: "top -50%",
     end: "top -80%",
     scrub: 2,
