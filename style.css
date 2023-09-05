@@ -302,11 +302,11 @@ video {
 }
 .page4 > h1 {
   position: absolute;
-  font-size: 80px;
+  font-size: 70px;
   top: -15%;
   left: 15%;
   color: #000;
-  font-weight: 800;
+  font-weight: 700;
   -webkit-text-stroke: 2px #fff;
   text-transform: uppercase;
 }
@@ -327,8 +327,8 @@ video {
   align-items: center;
   justify-content: center;
   color: #000;
-  font-size: 30px;
-  font-weight: 800;
+  font-size: 25px;
+  font-weight: 700;
   transition: all ease 0.7s;
   position: absolute;
   z-index: 10;
