@@ -43,8 +43,73 @@ gsap.to("#main", {
     trigger: "#main",
     scroller: "body",
     // markers: true,
-    start: "top -50%",
-    end: "top -80%",
+    start: "top -25%",
+    end: "top -70%",
+    scrub: 2,
+  },
+});
+gsap.to(".about-us img, .about-us-in ", {
+  y: 90,
+  duration: 1,
+  opacity: 0,
+  scrollTrigger: {
+    trigger: ".about-us",
+    scroller: "body",
+    //markers: true,
+    start: "top 50%",
+    end: "top 35%",
+    scrub: 1,
+  },
+});
+gsap.to(".card ", {
+  scale: 0.8,
+  duration: 1,
+  opacity: 0,
+  stagger: 0.1,
+  scrollTrigger: {
+    trigger: ".card",
+    scroller: "body",
+    //markers: true,
+    start: "top 70%",
+    end: "top 65%",
+    scrub: 1,
+  },
+});
+gsap.to("#colon1 ", {
+  y: -50,
+  x: -50,
+  scrollTrigger: {
+    trigger: "#colon1",
+    scroller: "body",
+    //markers: true,
+    start: "top 55%",
+    end: "top 45%",
+    scrub: 3,
+  },
+});
+
+gsap.to("#colon2", {
+  y: 50,
+  x: 50,
+  scrollTrigger: {
+    trigger: "#colon2",
+    scroller: "body",
+    //markers: true,
+    start: "top 60%",
+    end: "top 55%",
+    scrub: 3,
+  },
+});
+
+gsap.to(".page4 h1", {
+  y: -50,
+  x: -50,
+  scrollTrigger: {
+    trigger: ".page4 h1",
+    scroller: "body",
+    //markers: true,
+    start: "top 70%",
+    end: "top 65%",
     scrub: 2,
   },
 });
