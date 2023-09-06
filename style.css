@@ -302,11 +302,7 @@ video {
 }
 .page4 > h1 {
   position: absolute;
-<<<<<<< HEAD
-  font-size: 65px;
-=======
   font-size: 70px;
->>>>>>> 9ba59fc4e335baa9ef4cee44f29d5ada453dc8de
   top: -15%;
   left: 15%;
   color: #000;
@@ -332,11 +328,7 @@ video {
   justify-content: center;
   color: #000;
   font-size: 25px;
-<<<<<<< HEAD
-  font-weight: 900;
-=======
   font-weight: 700;
->>>>>>> 9ba59fc4e335baa9ef4cee44f29d5ada453dc8de
   transition: all ease 0.7s;
   position: absolute;
   z-index: 10;
