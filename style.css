@@ -276,18 +276,18 @@ video {
   position: absolute;
 }
 .page3 > p {
-  width: 45%;
-  font-size: 30px;
+  width: 55%;
+  font-size: 28px;
   text-align: center;
   font-weight: 700;
   line-height: 50px;
 }
 #colon1 {
-  left: 20%;
+  left: 15%;
   top: 25%;
 }
 #colon2 {
-  bottom: 25%;
+  bottom: 22%;
   right: 20%;
 }
 
@@ -302,7 +302,7 @@ video {
 }
 .page4 > h1 {
   position: absolute;
-  font-size: 80px;
+  font-size: 65px;
   top: -15%;
   left: 15%;
   color: #000;
@@ -327,8 +327,8 @@ video {
   align-items: center;
   justify-content: center;
   color: #000;
-  font-size: 30px;
-  font-weight: 800;
+  font-size: 25px;
+  font-weight: 900;
   transition: all ease 0.7s;
   position: absolute;
   z-index: 10;
@@ -349,4 +349,59 @@ video {
 
 .elem:hover img {
   scale: 1;
+}
+.footer {
+  height: 40vh;
+  width: 100%;
+  background: linear-gradient(to left bottom, #119f3a, #ace022);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6.5rem;
+  padding: 0 100px;
+}
+.footer > img {
+  left: 0;
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+  width: 20%;
+  object-fit: cover;
+  background-color: transparent;
+}
+.footer .ft1 img {
+  height: 100px;
+}
+
+.ft1,
+.ft2,
+.ft3,
+.ft4 {
+  width: fit-content;
+  position: relative;
+  z-index: 99;
+}
+.footer .ft2 h4 {
+  font-size: 1.5vw;
+  font-weight: 900;
+  white-space: nowrap;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.footer .ft3 h4 {
+  font-size: 1.4vw;
+  font-weight: 800;
+  white-space: nowrap;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.footer .ft4 h5 {
+  font-size: 1.2vw;
+  font-weight: 600;
+  white-space: nowrap;
+  margin-bottom: 10px;
+  color: #000;
 }

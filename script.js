@@ -76,8 +76,8 @@ gsap.to(".card ", {
   },
 });
 gsap.to("#colon1 ", {
-  y: -50,
-  x: -50,
+  y: -60,
+  x: -60,
   scrollTrigger: {
     trigger: "#colon1",
     scroller: "body",
@@ -89,8 +89,7 @@ gsap.to("#colon1 ", {
 });
 
 gsap.to("#colon2", {
-  y: 50,
-  x: 50,
+  x: 70,
   scrollTrigger: {
     trigger: "#colon2",
     scroller: "body",
@@ -102,8 +101,7 @@ gsap.to("#colon2", {
 });
 
 gsap.to(".page4 h1", {
-  y: -50,
-  x: -50,
+  y: -60,
   scrollTrigger: {
     trigger: ".page4 h1",
     scroller: "body",
