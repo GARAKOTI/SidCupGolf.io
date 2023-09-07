@@ -1,6 +1,11 @@
 var lightner = document.querySelector(".cursor");
 var blur_cursor = document.querySelector(".blurcursor");
+const downArrow = document.getElementById("arrow");
 
+downArrow.addEventListener("click", () => {
+  const page2 = document.querySelector(".page2");
+  page2.scrollIntoView({ behavior: "smooth" });
+});
 document.addEventListener("mousemove", (data) => {
   lightner.style.left = data.x + "px";
   lightner.style.top = data.y + "px";
